@@ -3,21 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chaolin Tian - 个人主页</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Chaolin Tian - About me</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <h1>Chaolin Tian</h1>
-    <p>Ph.D. Candidate | 研究方向：计算社会科学</p>
+<body class="bg-slate-100 text-slate-800">
+  <div class="min-h-screen flex items-center justify-center p-6">
+    <div class="bg-white shadow-xl rounded-2xl max-w-4xl w-full grid grid-cols-1 md:grid-cols-3 overflow-hidden">
 
-    <p>您好，我的研究兴趣集中在计算社会科学与网络科学的交叉领域。</p>
+      <!-- 左侧栏 -->
+      <div class="bg-indigo-700 text-white p-6 flex flex-col items-center justify-center">
+        <div class="w-32 h-32 rounded-full bg-white mb-4"></div>
+        <h1 class="text-2xl font-bold">Chaolin Tian</h1>
+        <p class="mt-1 text-sm">博士研究生</p>
+        <p class="text-sm">计算社会科学</p>
+      </div>
 
-    <div class="links">
-      <!-- <a href="cv.pdf" target="_blank">📄 下载我的简历</a> -->
-      <a href="mailto:your_email@example.com">📧 联系邮箱</a>
-      <a href="https://github.com/ChaolinTian" target="_blank">🌐 GitHub</a>
+      <!-- 右侧内容 -->
+      <div class="md:col-span-2 p-8">
+        <p class="text-lg mb-4">
+          Chaolin Tian，目前为博士在读，研究兴趣集中在计算社会科学与网络科学的交叉领域。
+        </p>
+
+        <div class="mt-6">
+          <h2 class="text-indigo-700 text-xl font-semibold mb-2">联系方式</h2>
+          <ul class="space-y-2">
+            <li>
+              📧 <a href="mailto:your_email@example.com" class="text-indigo-600 hover:underline">your_email@example.com</a>
+            </li>
+            <li>
+              🌐 <a href="https://github.com/ChaolinTian" target="_blank" class="text-indigo-600 hover:underline">GitHub: ChaolinTian</a>
+            </li>
+            <!-- <li>
+              📄 <a href="cv.pdf" class="text-indigo-600 hover:underline">下载简历</a>
+            </li> -->
+          </ul>
+        </div>
+
+        <!-- 项目或成果展示可以在这里添加 -->
+
+      </div>
     </div>
   </div>
 </body>
 </html>
+
